@@ -1,0 +1,186 @@
+@media only screen and (min-width: 750px) {
+    .bookmaker-rank{
+        padding: 30px 10% 30px 10%;
+    }
+    .rank-box{
+        grid-template-columns: 1.2fr 1fr 2.3fr 1fr 1fr 1.5fr;
+    }
+    .rank-box section{
+        margin: 10px;
+    }
+    .bookmaker-payment span{
+        width: 100%;
+    }
+    .bookmaker-payment{
+        flex-direction: column;
+    }
+    .rating-phone{
+        display: none;
+    }
+    .bookmaker-button{
+        border-left: solid;
+        flex-direction: column;
+    }
+    .bookmaker-button a{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .bookmaker-rank{
+        padding: 30px 5% 30px 5%;
+    }
+    .rank-box{
+        max-width: 300px;
+        margin:0 auto;
+    }
+    .rank-box section{
+        margin: 5px;
+    }
+    .bookmaker-payment{
+        flex-direction: row;
+    }
+    .bookmaker-payment span{
+        width: 40%;
+    }
+    .rating-web{
+        display: none;
+    }
+    .bookmaker-bonus{
+        display: none;
+    }
+    .bookmaker-detail h3{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .bookmaker-detail p{
+        margin: 0;
+        padding-top: 10px;
+    }
+    .rating-phone{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:10px;
+        align-items: center;
+    }
+    .rating-phone span{
+        flex-basis: 45%;
+        border: lightgray solid;
+        border-width: 1px;
+        align-self: center;
+    }
+    .bookmaker-button{
+        border-top: solid;
+        flex-direction: row;
+    }
+    .bookmaker-button a{
+        margin-top: 10px;
+        width: 45%;
+    }
+}
+.rank-table{
+    padding-top: 10px;
+}
+.rank-box{
+    display: grid;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    align-items: center;
+    justify-content: center;
+}
+.bookmaker-logo img{
+    border-radius: 5px;
+    height: 100px; 
+}
+.bookmaker-detail{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.bookmaker-rating{
+    text-align: center;
+}
+.rating-value{
+    font-size: 35px;
+    font-weight: bold;
+}
+.bookmaker-rating i{
+    margin-top: 3px;
+    color:gold;
+    font-size: 12px;
+}
+.bookmaker-payment{
+    display:flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+.bookmaker-payment span{
+    padding:3px 10px 3px 10px;
+    border: solid;
+    border-color: lightgray;
+    border-width: 0.5px;
+    border-radius: 3px;
+    height: 35px;
+}
+
+.bookmaker-bonus{
+    padding:10px 0px 10px 0px;
+}
+
+.bookmaker-bonus div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height:100%;
+    border-radius: 5px;
+}
+.bonus-amount{
+    font-size: 1.5em;
+    font-weight:bold;
+    border-bottom: solid;
+    border-color: #337def;
+    border-width: 5px;
+}
+.bookmaker-button{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.bookmaker-button a{
+    display: inline-block;
+    text-decoration: none;
+    padding:10px 0px 10px 0px;
+    border-radius: 5px;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+
+.buttonsite{
+    background-color:#337def;
+}
+.buttonreview{
+    background-color:#FF6341;
+}
+.show-more{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show-more span{
+    background-color:#152039;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}
